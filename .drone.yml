@@ -1,8 +1,8 @@
 kind: pipeline
 type: docker
-name: build
+name: robin
 steps:
-- name: build
+- name: kiwim
   image: golang:alpine
   pull: if-not-exists # always never
   environment:
